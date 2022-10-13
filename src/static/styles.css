@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Permanent Marker", sans-serif;
+}
+
+.sidebar {
+    background-image: url("img/sidebar.png");
+    background-size: cover;
+    width: 27%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content-body {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.nav-btn {
+    font-size: 1em;
+    height: 5em;
+    background-color: black;
+    color: white;
+    padding: 1.5em;
+    padding-bottom: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-btn img {
+    height: 6em;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: relative;
+    bottom: 3em;
+    visibility: hidden;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+}
+
+.navbar .active img {
+    visibility: visible;
+}
+
+.main-content {
+    padding: 10em;
+    padding-top: 2em;
+    background-color: rgb(235, 225, 225);
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-content img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    padding: 2.5em;
+}
+
